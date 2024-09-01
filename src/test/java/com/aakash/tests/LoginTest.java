@@ -11,7 +11,9 @@ public class LoginTest extends BaseTest {
     @Test
     public void testValidLogin() {
         test = extent.createTest("testValidLogin");
-        log.info("Starting valid login test");
+        log.info("Starting valid login test1");
+        log.info("Starting valid login test2");
+        log.info("Starting valid login test3");
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername(config.getProperty("username"));
