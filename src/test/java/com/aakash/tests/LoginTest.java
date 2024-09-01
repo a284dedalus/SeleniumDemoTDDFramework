@@ -14,6 +14,8 @@ public class LoginTest extends BaseTest {
         log.info("Starting valid login test1");
         log.info("Starting valid login test2");
         log.info("Starting valid login test3");
+        //new
+        log.info("Starting valid login test4");
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername(config.getProperty("username"));
