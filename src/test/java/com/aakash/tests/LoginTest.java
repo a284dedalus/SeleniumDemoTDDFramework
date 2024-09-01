@@ -27,4 +27,22 @@ public class LoginTest extends BaseTest {
         log.info("Completed valid login test");
         test.log(Status.PASS, "Valid login test passed");
     }
+    
+    @Test
+    public void HomeVerify() {
+        test = extent.createTest("HomeVerify");  
+        log.info("Starting verify Home");  
+    }
+    
+    @Test
+    public void SearchVerify() {
+        test = extent.createTest("SearchVerify");  
+        log.info("Starting verify Search");  
+    }
+    
+    @Test
+    public void LogOutVerify() {
+        test = extent.createTest("LogOutVerify");  
+        log.info("Starting verify LogOut");  
+    }
 }
