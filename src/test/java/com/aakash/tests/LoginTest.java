@@ -41,6 +41,12 @@ public class LoginTest extends BaseTest {
     }
     
     @Test
+    public void CartVerify() {
+        test = extent.createTest("CartVerify");  
+        log.info("Starting verify Cart");  
+    }
+    
+    @Test
     public void LogOutVerify() {
         test = extent.createTest("LogOutVerify");  
         log.info("Starting verify LogOut");  
